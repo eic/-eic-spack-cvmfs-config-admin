@@ -2,3 +2,8 @@ config:
   install_tree: $spack/../..
 
   source_cache: $spack/var/spack/cache
+
+  module_roots:
+    tcl:    $spack/share/spack/modules
+    lmod:   $spack/share/spack/lmod
+
