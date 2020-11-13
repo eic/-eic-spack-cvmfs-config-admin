@@ -7,3 +7,4 @@ config:
     tcl:    $spack/share/spack/modules
     lmod:   $spack/share/spack/lmod
 
+  ccache: true
