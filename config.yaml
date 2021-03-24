@@ -5,7 +5,7 @@ config:
   source_cache: $spack/var/spack/cache
 
   module_roots:
-    tcl: $spack/share/spack/modules
-    lmod: $spack/share/spack/lmod
+    tcl: $spack/../modules
+    lmod: $spack/../lmod
 
   ccache: true
