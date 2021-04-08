@@ -1,0 +1,78 @@
+packages:
+  autoconf:
+    externals:
+    - spec: autoconf@2.69 arch=linux-centos8-x86_64
+      prefix: /usr
+  automake:
+    externals:
+    - spec: automake@1.16.1 arch=linux-centos8-x86_64
+      prefix: /
+  bash:
+    externals:
+    - spec: bash@4.4.19 arch=linux-centos8-x86_64
+      prefix: /usr
+  bzip2:
+    externals:
+    - spec: bzip2@1.0.6 arch=linux-centos8-x86_64
+      prefix: /usr
+  cmake:
+    externals:
+    - spec: cmake@3.11.4 arch=linux-centos8-x86_64
+      prefix: /usr
+  cpio:
+    externals:
+    - spec: cpio@2.12 arch=linux-centos8-x86_64
+      prefix: /
+  diffutils:
+    externals:
+    - spec: diffutils@3.6 arch=linux-centos8-x86_64
+      prefix: /usr
+  findutils:
+    externals:
+    - spec: findutils@4.6.0 arch=linux-centos8-x86_64
+      prefix: /
+  gcc:
+    externals:
+    - spec: gcc@8.3.1 languages=c,c++,fortran arch=linux-centos8-x86_64
+      prefix: /
+      extra_attributes:
+        compilers:
+          c: /bin/x86_64-redhat-linux-gcc-8
+          cxx: /bin/g++
+          fortran: /bin/gfortran
+  git:
+    externals:
+    - spec: git@2.27.0~tcltk arch=linux-centos8-x86_64
+      prefix: /
+  gmake:
+    externals:
+    - spec: gmake@4.2.1 arch=linux-centos8-x86_64
+      prefix: /usr
+  m4:
+    externals:
+    - spec: m4@1.4.18 arch=linux-centos8-x86_64
+      prefix: /usr
+  perl:
+    externals:
+    - spec: perl@5.26.3~cpanm+shared+threads arch=linux-centos8-x86_64
+      prefix: /
+  pkgconf:
+    externals:
+    - spec: pkgconf@1.4.2 arch=linux-centos8-x86_64
+      prefix: /
+  python:
+    externals:
+    - spec: python@3.6.8+bz2+ctypes+dbm+lzma+nis+pyexpat+readline+sqlite3+ssl~tix~tkinter+uuid+zlib arch=linux-centos8-x86_64
+      prefix: /usr
+  tar:
+    externals:
+    - spec: tar@1.30 arch=linux-centos8-x86_64
+      prefix: /
+  texinfo:
+    externals:
+    - spec: texinfo@6.5 arch=linux-centos8-x86_64
+      prefix: /usr
+  xz:
+    externals:
+    - spec: xz@5.2.4 arch=linux-centos8-x86_64
+      prefix: /usr
